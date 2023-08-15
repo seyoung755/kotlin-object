@@ -8,4 +8,6 @@ fun main() {
     val theater = Theater(ticketSeller)
     theater.enter(aud1)
     theater.enter(aud2)
+    println(aud1.bag.hasTicket())
+    println(aud2.bag.hasTicket())
 }
