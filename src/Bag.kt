@@ -2,7 +2,7 @@ class Bag(
     private var amount: Long,
     private var invitation: Invitation?
 ) {
-    private val ticket: Ticket? = null
+    var ticket: Ticket? = null
     constructor(amount: Long) : this(amount, null)
 
     fun hasInvitation(): Boolean {
