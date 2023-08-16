@@ -1,3 +1,5 @@
+package theater
+
 class Bag(
     private var amount: Long,
     private var invitation: Invitation?

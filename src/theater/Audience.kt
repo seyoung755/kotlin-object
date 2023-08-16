@@ -1,3 +1,5 @@
+package theater
+
 class Audience(private val bag: Bag) {
     fun buy(ticket: Ticket): Long {
         if (bag.hasInvitation()) {

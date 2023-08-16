@@ -1,3 +1,5 @@
+package theater
+
 class TicketOffice {
     private var amount: Long? = null
     private val tickets: MutableList<Ticket> = mutableListOf()
