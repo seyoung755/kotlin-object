@@ -1,5 +1,6 @@
-package movie_reservation
+package movie_reservation.discount.condition
 
+import movie_reservation.Screening
 import java.time.DayOfWeek
 import java.time.LocalTime
 

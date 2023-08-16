@@ -1,5 +1,6 @@
 package movie_reservation
 
+import movie_reservation.discount.policy.DiscountPolicy
 import java.time.Duration
 
 class Movie(

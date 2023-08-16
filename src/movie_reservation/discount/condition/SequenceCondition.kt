@@ -1,4 +1,6 @@
-package movie_reservation
+package movie_reservation.discount.condition
+
+import movie_reservation.Screening
 
 class SequenceCondition(
     private var sequence: Int
